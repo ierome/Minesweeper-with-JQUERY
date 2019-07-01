@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Minesweeper!</h1>
+    <p>The game rules are simple. You have one left square and one right square. One of them has a bomb on them and you will lose. Choose carefully!</p>
+    <p>Choose your first move!</p>
+    <h1>Wins: <span id="wins"></span></h1>
+    <h1>Losses: <span id="losses"></span></h1>
+    <div class="oneButtons">
+        <button class="oneLeft">Left</button>
+        <button class="oneRight">Right</button>
+        <hr>
+        <span id="r1"></span>
+    
+    </div>
+    <div class="twoButtons">
+            <p>Congrats! You survived! Choose your second move!</p>
+            <button class="twoLeft">Left</button>
+            <button class="twoRight">Right</button>
+            <hr>
+            <span id="r2"></span>
+    
+    </div>
+    <div class="threeButtons">
+            <p>Congrats! You survived! Choose your last move!</p>
+            <button class="threeLeft">Left</button>
+            <button class="threeRight">Right</button>
+            <hr>
+            <span id="r3"></span>
+    
+    </div>
+    <div class="winner">
+        <h1>CONGRATS! YOU MADE IT ALL THE WAY!</h1>
+        <h3>Wait 5 seconds for the game to restart.</h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
